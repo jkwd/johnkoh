@@ -1,0 +1,62 @@
+
+
+/* ------------------------------------------------------------------ */
+/* d. skillCust Section
+/* ------------------------------------------------------------------ */
+
+#skillCust {
+    background: #2B2B2B;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+#skillCust a, #skillCust a:visited  { color: #11ABB0; }
+#skillCust a:hover, #skillCust a:focus { color: #313131; }
+
+#skillCust h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#skillCust h1 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+}
+#skillCust h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#skillCust .header-col { padding-top: 9px; }
+#skillCust .main-col { padding-right: 10%; }
+
+.education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+}
+#skillCust .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+#skillCust .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#skillCust .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+}
+
+.work {
+    border-bottom: 0px;
+}
+.tag {
+    margin-right: 8px;
+}
+
+header {
+    background-image: url("../images/name_bg.jpg");
+}
