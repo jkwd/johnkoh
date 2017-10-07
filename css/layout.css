@@ -374,8 +374,8 @@ ul#nav li.current a { color: #F06000; }
   /*100% { width: 50%;  }*/
 /*}*/
 @-moz-keyframes java {
-    0%   { width: 0px;  }
-    100% { width: 80%;  }
+0%   { width: 0px;  }
+100% { width: 80%;  }
 }
 @-moz-keyframes css {
 0%   { width: 0px;  }
@@ -403,8 +403,8 @@ ul#nav li.current a { color: #F06000; }
   /*100% { width: 50%;  }*/
 /*}*/
 @-webkit-keyframes java {
-    0%   { width: 0px;  }
-    100% { width: 80%;  }
+0%   { width: 0px;  }
+100% { width: 80%;  }
 }
 @-webkit-keyframes css {
 0%   { width: 0px;  }
