@@ -93,3 +93,8 @@ header {
         top: -42px;
     }
 }
+@media only screen and (max-width: 900px) {
+    #resume h1 span{
+        padding-bottom: 0px;
+    }
+}
