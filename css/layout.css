@@ -203,7 +203,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #d7d7d7;
 }
 #about .profile-pic {
    position: relative;
@@ -324,6 +324,26 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+.proficient-90 {
+    width: 90%;
+    -moz-animation: proficient-90 2s ease;
+    -webkit-animation: proficient-90 2s ease;
+}
+.proficient-80 {
+    width: 80%;
+    -moz-animation: proficient-80 2s ease;
+    -webkit-animation: proficient-80 2s ease;
+}
+.proficient-70 {
+    width: 70%;
+    -moz-animation: proficient-70 2s ease;
+    -webkit-animation: proficient-70 2s ease;
+}
+.proficient-60 {
+    width: 60%;
+    -moz-animation: proficient-60 2s ease;
+    -webkit-animation: proficient-60 2s ease;
+}
 
 .photoshop {
   	width: 60%;
@@ -340,15 +360,15 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.css {
+.python {
   	width: 80%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
-.html5 {
+.html {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: html 2s ease;
+  	-webkit-animation: html 2s ease;
 }
 .jquery {
   	width: 65%;
@@ -360,6 +380,33 @@ ul#nav li.current a { color: #F06000; }
     -moz-animation: java 2s ease;
     -webkit-animation: java 2s ease;
 }
+.vba {
+    width: 60%;
+    -moz-animation: vba 2s ease;
+    -webkit-animation: vba 2s ease;
+}
+.ruby {
+    width: 60%;
+    -moz-animation: vba 2s ease;
+    -webkit-animation: vba 2s ease;
+}
+@-moz-keyframes proficient-90 {
+    0%   { width: 0px;  }
+    100% { width: 90%;  }
+}
+@-moz-keyframes proficient-80 {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+}
+@-moz-keyframes proficient-70 {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+}
+@-moz-keyframes proficient-60 {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+}
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -373,11 +420,11 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-moz-keyframes css {
+@-moz-keyframes python {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes html {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
@@ -389,6 +436,32 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 85%;  }
 }
+@-moz-keyframes vba {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+}
+@-moz-keyframes ruby {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+}
+/*-----*/
+@-webkit-keyframes proficient-90 {
+    0%   { width: 0px;  }
+    100% { width: 90%;  }
+}
+@-webkit-keyframes proficient-80 {
+    0%   { width: 0px;  }
+    100% { width: 80%;  }
+}
+@-webkit-keyframes proficient-70 {
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+}
+@-webkit-keyframes proficient-60 {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+}
+
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
@@ -402,11 +475,11 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes python {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes html {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
@@ -417,6 +490,14 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes java {
   0%   { width: 0px;  }
   100% { width: 85%;  }
+}
+@-webkit-keyframes vba {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+}
+@-webkit-keyframes ruby {
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
 }
 
 /* ------------------------------------------------------------------ */
