@@ -88,3 +88,8 @@ header {
 #resume a.active {
     background-color: #313131;
 }
+@media only screen and (max-width: 767px) {
+    .bars li em {
+        top: -42px;
+    }
+}
