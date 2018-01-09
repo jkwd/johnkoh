@@ -145,21 +145,39 @@
             <div class="row item">
 
                 <div class="twelve columns">
-
-
                     <h3>Fixir - IS480: IS Application Project</h3>
                     <p class="info">Web Application Developer<span>&bull;</span> <em class="date">June 2016 - November 2016</em></p>
 
-                    <p>Worked with a team of 5 to create a car maintenance platform for drivers to receive and compare quotations from trusted workshops.</p>
+                    <p>Worked in a team of 5 to create a car maintenance platform for drivers to receive and compare quotations from trusted workshops.</p>
                     <ul class="circle">
                         <li>Proposed an improved business process to integrate web application into the current workflow</li>
                         <li>Developed web application for workshops and mobile responsive web application for drivers using JSP </li>
                         <li>Conducted user testing with 30 users </li>
                     </ul>
 
-                    <sm class="tag"><i class="fa fa-tag"></i>Business Process</sm>
-                    <sm class="tag"><i class="fa fa-tag"></i>Web Development</sm>
-                    <sm class="tag"><i class="fa fa-tag"></i>User Testing</sm>
+                    <sm class="tag"><i class="fa fa-tag"></i> Business Process</sm>
+                    <sm class="tag"><i class="fa fa-tag"></i> Web Development</sm>
+                    <sm class="tag"><i class="fa fa-tag"></i> User Testing</sm>
+                    </p>
+
+                </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+                <div class="twelve columns">
+                    <h3>Timothy Joshua - IS434: Social Analytics</h3>
+                    <p class="info">Analyst<span>&bull;</span> <em class="date">August 2017 - November 2017</em></p>
+
+                    <p>Worked in a team of 5 to increase client's Instagram follower count and post likes</p>
+                    <ul class="circle">
+                        <li>Recommended hashtags to client to reach out to a wider audience using Python and Tableau</li>
+                        <li>Analysed sentiments of client's post from the comments using Python</li>
+                        <li>Recommended time slots for client to post to receive the most likes using Tableau</li>
+                    </ul>
+
+                    <sm class="tag"><i class="fa fa-tag"></i> Natural Language Processing</sm>
                     </p>
 
                 </div>
@@ -195,9 +213,9 @@
                             <li>Conducted 3 1-hour Excel training workshop for 15 fulltime employees to increase their efficiency</li>
                         </ul>
                         <!--<span class="categories"><i class="fa fa-tag"></i> Business Process, Web Design</span>-->
-                    <sm class="tag"><i class="fa fa-tag"></i>Business Process</sm>
-                    <sm class="tag"><i class="fa fa-tag"></i>Web Design</sm>
-                    <sm class="tag"><i class="fa fa-tag"></i>Training</sm>
+                    <sm class="tag"><i class="fa fa-tag"></i> Business Process</sm>
+                    <sm class="tag"><i class="fa fa-tag"></i> Web Design</sm>
+                    <sm class="tag"><i class="fa fa-tag"></i> Training</sm>
                     </p>
 
                 </div>
@@ -217,8 +235,8 @@
                         <li>Documented user guides for clients to post blogs </li>
                     </ul>
 
-                    <sm class="tag"><i class="fa fa-tag"></i>Web Development</sm>
-                    <sm class="tag"><i class="fa fa-tag"></i>Documentation</sm>
+                    <sm class="tag"><i class="fa fa-tag"></i> Web Development</sm>
+                    <sm class="tag"><i class="fa fa-tag"></i> Documentation</sm>
                     </p>
 
                 </div>
@@ -385,22 +403,47 @@
 
         <div class="three columns header-col">
             <h1><span>Skills</span></h1>
+            <p></p>
+                <a class="button skills-link eight active" onclick="openSkills(event, 'development')" id="defaultOpen">Development</a>
+                <a class="button skills-link eight" onclick="openSkills(event, 'tools')">Tools</a>
+                <a class="button skills-link eight" onclick="openSkills(event, 'analytics')">Analytics</a>
         </div>
 
         <div class="nine columns main-col">
 
-            <div class="bars">
+            <div class="bars skills" id="development">
 
-                <ul class="skills">
-                    <li><span class="bar-expand java"></span><em>Java</em></li>
-                    <li><span class="bar-expand html5"></span><em>HTML & CSS</em></li>
-                    <!--<li><span class="bar-expand css"></span><em>CSS</em></li>-->
-                    <li><span class="bar-expand jquery"></span><em>javascript & jQuery</em></li>
+                <ul>
+                    <li><span class="bar-expand proficient-90"></span><em>Java</em></li>
+                    <li><span class="bar-expand proficient-80"></span><em>HTML, CSS, Python, mySQL</em></li>
+                    <!--<li><span class="bar-expand python"></span><em>Python</em></li>-->
+                    <li><span class="bar-expand proficient-70"></span><em>Javascript & jQuery</em></li>
+                    <li><span class="bar-expand proficient-60"></span><em>VBA, Ruby</em></li>
+                    <!--<li><span class="bar-expand ruby"></span><em>Ruby</em></li>-->
                 </ul>
+            </div><!-- end skill-bars -->
 
+            <div class="bars skills" id="tools">
+                <ul >
+                    <li><span class="bar-expand proficient-90"></span><em>Netbeans</em></li>
+                    <li><span class="bar-expand proficient-80"></span><em>IntelliJ, Pycharm, mysql workbench, Git</em></li>
+                    <li><span class="bar-expand proficient-70"></span><em>R studio, AWS, Openshift, Axure RP</em></li>
+                    <!--<li><span class="bar-expand vba"></span><em>Mysql Workbench</em></li>-->
+                    <!--<li><span class="bar-expand ruby"></span><em>Git</em></li>-->
+                </ul>
+            </div><!-- end skill-bars -->
+
+            <div class="bars skills" id="analytics">
+
+                <ul>
+                    <li><span class="bar-expand proficient-90"></span><em>SAS Enterprise Guide, Tableau</em></li>
+                    <li><span class="bar-expand proficient-80"></span><em>SAS Enterprise Miner, JMP</em></li>
+                    <!--<li><span class="bar-expand proficient-70"></span><em>JMP</em></li>-->
+                </ul>
             </div><!-- end skill-bars -->
 
         </div> <!-- main-col end -->
+
 
     </section> <!-- End skills -->
 
@@ -423,10 +466,10 @@
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
 
-                        <a href="#modal-01" title="roadbull">
+                        <a href="#modal-roadbull" title="roadbull">
                             <img alt="" src="images/roadbullPrototype.PNG">
                             <div class="overlay">
-                                <div class="portfolio-item-meta">
+                                <div class="portfolio-item-meta text-center">
                                     <h5>Roadbull</h5>
                                     <p>Web Design</p>
                                 </div>
@@ -440,15 +483,32 @@
                 <div class="columns portfolio-item">
                     <div class="item-wrap">
 
-                        <a href="#modal-02" title="fixir">
+                        <a href="#modal-fixir" title="fixir">
                             <img alt="" src="images/fixirWorkshop.jpg">
                             <div class="overlay">
-                                <div class="portfolio-item-meta">
+                                <div class="portfolio-item-meta text-center">
                                     <h5>Fixir</h5>
                                     <p>Web Developement</p>
                                 </div>
                             </div>
                             <div class="link-icon"><i class="icon-plus"></i></div>
+                        </a>
+
+                    </div>
+                </div> <!-- item end -->
+
+                <div class="columns portfolio-item">
+                    <div class="item-wrap">
+
+                        <a href="#modal-timothy" title="timothy">
+                            <img alt="" src="images/timothy.PNG">
+                            <div class="overlay">
+                                <div class="portfolio-item-meta text-center">
+                                    <h5 class="dark-words">Timothy Joshua</h5>
+                                    <p class="dark-words">Social Analytics</p>
+                                </div>
+                            </div>
+                            <div class="link-icon dark"><i class="icon-plus"></i></div>
                         </a>
 
                     </div>
@@ -462,7 +522,7 @@
         <!-- Modal Popup
           --------------------------------------------------------------- -->
 
-        <div id="modal-01" class="popup-modal mfp-hide">
+        <div id="modal-roadbull" class="popup-modal mfp-hide">
 
             <img class="scale-with-grid" src="images/roadbullPrototype.PNG" alt=""/>
 
@@ -470,7 +530,11 @@
                 <h4>Roadbull</h4>
                 <p>Prototyped company's career page for management team to test and understand the flow of the application.
                 This also helps the developers to easily implement the page.</p>
-                <span class="categories"><i class="fa fa-tag"></i>Web Design, Prototype, Axure</span>
+                <span class="categories">
+                    <i class="fa fa-tag"></i>Web Design
+                    <i class="fa fa-tag"></i>Prototype
+                    <i class="fa fa-tag"></i>Axure RP
+                </span>
             </div>
 
             <div class="link-box">
@@ -478,9 +542,9 @@
                 <a class="popup-modal-dismiss">Close</a>
             </div>
 
-        </div><!-- modal-01 End -->
+        </div><!-- modal-roadbull End -->
 
-        <div id="modal-02" class="popup-modal mfp-hide">
+        <div id="modal-fixir" class="popup-modal mfp-hide">
 
             <img class="scale-with-grid" src="images/fixirWorkshop.jpg" alt=""/>
 
@@ -488,7 +552,10 @@
                 <h4>Fixir</h4>
                 <p>Fixir WebApp allows car workshop providers to be able to respond in a timely and intuitive manner,
                     enhancing user experience when obtaining such services.</p>
-                <span class="categories"><i class="fa fa-tag"></i>Web Development, Java</span>
+                <span class="categories">
+                    <i class="fa fa-tag"></i>Web Development
+                    <i class="fa fa-tag"></i>Java
+                </span>
             </div>
 
             <div class="link-box">
@@ -496,7 +563,28 @@
                 <a class="popup-modal-dismiss">Close</a>
             </div>
 
-        </div><!-- modal-02 End -->
+        </div><!-- modal-fixir End -->
+
+        <div id="modal-timothy" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/timothy.PNG" alt=""/>
+
+            <div class="description-box">
+                <h4>Timothy Joshua</h4>
+                <p>Increased Timothy's follower count and post likes by analysing the sentiments about his poems, time posted, hashtags used
+                    and number of words written in the poems.</p>
+                <span class="categories">
+                    <i class="fa fa-tag"></i>Social Analytics
+                    <i class="fa fa-tag"></i>Natural Language Processing
+                </span>
+            </div>
+
+            <div class="link-box">
+                <!--<a href="http://www.behance.net">Details</a>-->
+                <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+        </div><!-- modal-timothy End -->
 
     </div> <!-- row End -->
 
@@ -514,7 +602,7 @@
 
         <div class="twelve columns">
             <ul class="copyright">
-                <li>&copy; Copyright 2018 - John Koh</li>
+                <li>&copy; 2018 Koh Wei De John</li>
                 <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
             </ul>
 
@@ -537,6 +625,7 @@
 <script src="js/jquery.fittext.js"></script>
 <script src="js/magnific-popup.js"></script>
 <script src="js/init.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 
