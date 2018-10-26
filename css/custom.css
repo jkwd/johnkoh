@@ -16,7 +16,7 @@
 #awards {
     background: white;
 }
-
+/*
 @media (min-width: 768px) {
     .resume-height {
         min-height: 520px;
@@ -25,5 +25,5 @@
 @media (min-width: 1025px) {
     .resume-height {
         min-height: 350px;
-    }
+    }*/
 }
